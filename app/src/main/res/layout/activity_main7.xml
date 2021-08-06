@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mpesa">
+
+        <TextView
+            android:id="@+id/thah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="Send Money"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/receipient"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thah"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="Receipient's Mobile Number"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/receipient"
+            android:layout_marginTop="11dp"
+            android:paddingTop="10dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="26dp"
+            android:paddingTop="10dp"
+            android:text="Enter Amount"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobile"
+            android:layout_marginTop="17dp"
+            android:paddingTop="10dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@+id/number"
+            android:layout_marginTop="179dp"
+            android:onClick="send"
+            android:text="Send"
+            app:backgroundTint="#5F9323">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

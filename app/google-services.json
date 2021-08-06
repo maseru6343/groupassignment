@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040590817374",
+    "project_id": "mpesa-c0ad6",
+    "storage_bucket": "mpesa-c0ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040590817374:android:4d0a586b97ee454b5ecccf",
+        "android_client_info": {
+          "package_name": "com.example.mpesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040590817374-d7ph34pcdtqtnjs96n7kgskm8pmk7prg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6MKJxXoUDT228S7_QH1kIAjjHKO5kqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040590817374-d7ph34pcdtqtnjs96n7kgskm8pmk7prg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

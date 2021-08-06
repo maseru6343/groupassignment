@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E30C0C"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/thah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="10dp"
+        android:text="Mpesa Services"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/mst"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_below="@+id/thah"
+        android:src="@drawable/pnm">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/thahbieh"
+        android:layout_width="401dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/mst"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:onClick="thahbieh"
+        android:paddingTop="10dp"
+        android:text="1.Balance Enquiry"
+        android:textAlignment="center"
+        android:textColor="#F3F6F0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5F9323" />
+
+    <Button
+        android:id="@+id/mpesa"
+        android:layout_width="401dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/thahbieh"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:onClick="mpesa"
+        android:paddingTop="10dp"
+        android:text="2.Send Money"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5F9323" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="401dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/mpesa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:onClick="logout"
+        android:paddingTop="10dp"
+        android:text="3.LogOut"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5F9323" />
+
+</RelativeLayout>

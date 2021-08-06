@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mpesa">
+
+        <TextView
+            android:id="@+id/thah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Register with Mpesa here!!!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thah"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="Names"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Names"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:layout_marginTop="13dp"
+            android:paddingTop="10dp"
+            android:inputType="text">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Names"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="29dp"
+            android:paddingTop="10dp"
+            android:text="Phone Number"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Village"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginTop="19dp"
+            android:paddingTop="10dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Village"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="Pin Code"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third"
+            android:layout_marginTop="7dp"
+            android:paddingTop="10dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@+id/Age"
+            android:layout_marginTop="72dp"
+            android:text="Submit!!!!"
+            app:backgroundTint="#5F9323">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+</ScrollView>

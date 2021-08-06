@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E30C0C"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="10dp"
+        android:text="Mpesa Options"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ree"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_below="@+id/text11"
+        android:src="@drawable/pnm">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/registery"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_below="@+id/ree"
+        android:text="Register To Mpesa"
+        android:layout_marginTop="69dp"
+        app:backgroundTint="#5F9323"
+        android:onClick="registery">
+
+    </Button>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_below="@+id/registery"
+        android:text="Login To Mpesa"
+        android:layout_marginTop="35dp"
+        app:backgroundTint="#5F9323"
+        android:onClick="login">
+
+    </Button>
+
+</RelativeLayout>
